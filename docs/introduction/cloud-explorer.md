@@ -39,23 +39,35 @@ By default listings endpoints return all data for provided type. You can use fol
 
 #### `GET /v3/wallets`
 
-Returns a JSON object containing all wallets listed in the cloud explorer. <br />
-[See Example](https://explorer-api.walletconnect.com/v3/wallets?projectId=910d57209feae81a027a7e238483f22a&entries=5&page=1)
+Returns a JSON object containing all wallets listed in the cloud explorer.
+
+Examples:
+
+- `GET https://explorer-api.walletconnect.com/v3/wallets?projectId=YOUR_PROJECT_ID&entries=5&page=1`
 
 #### `GET /v3/dapps`
 
-Returns a JSON object containing all dApps listed in the public cloud explorer. <br />
-[See Example](https://explorer-api.walletconnect.com/v3/dapps?projectId=910d57209feae81a027a7e238483f22a&entries=5&page=1)
+Returns a JSON object containing all dApps listed in the public cloud explorer.
+
+Examples:
+
+- `GET https://explorer-api.walletconnect.com/v3/dapps?projectId=YOUR_PROJECT_ID&entries=5&page=1`
 
 #### `GET /v3/hybrid`
 
-Returns a JSON object containing all hybrids listed in the public cloud explorer. <br />
-[See Example](https://explorer-api.walletconnect.com/v3/hybrid?projectId=910d57209feae81a027a7e238483f22a&entries=5&page=1)
+Returns a JSON object containing all hybrids listed in the public cloud explorer.
+
+Examples:
+
+- `GET https://explorer-api.walletconnect.com/v3/hybrid?projectId=YOUR_PROJECT_ID&entries=5&page=1`
 
 #### `GET /v3/all`
 
-Returns a JSON object containing all entries listed in the public cloud explorer. <br />
-[See Example](https://explorer-api.walletconnect.com/v3/all?projectId=910d57209feae81a027a7e238483f22a&entries=5&page=1)
+Returns a JSON object containing all entries listed in the public cloud explorer.
+
+Examples:
+
+- `GET https://explorer-api.walletconnect.com/v3/all?projectId=YOUR_PROJECT_ID&entries=5&page=1`
 
 ### Logos
 
@@ -74,5 +86,8 @@ Returns a JSON object containing all entries listed in the public cloud explorer
 
 #### `GET /v3/logo/:size/:image_id`
 
-Returns the image source of the logo for `image_id` sized according `size`. <br />
-[See Example](https://explorer-api.walletconnect.com/v3/logo/md/32a77b79-ffe8-42c3-61a7-3e02e019ca00?projectId=910d57209feae81a027a7e238483f22a)
+Returns the image source of the logo for `image_id` sized according `size`.
+
+Examples:
+
+- `GET https://explorer-api.walletconnect.com/v3/logo/md/32a77b79-ffe8-42c3-61a7-3e02e019ca00?projectId=YOUR_PROJECT_ID`
