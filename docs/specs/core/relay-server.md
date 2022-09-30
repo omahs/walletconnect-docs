@@ -84,6 +84,15 @@ Used when a server sends a subscription message to a client.
 }
 ```
 
+# Close codes
+
+Relay server sends the following close codes:
+
+| Code        | Description | Reconnect  |
+| ----------- | ----------- |----------- |
+| 1001        | Server terminating | Yes |
+| 4008        | Client stale: connected without a prior subscription and is not sending data | When needed |
+
 ## FAQ
 
 - What is a client? - Any SDK instance (Sign, Chat, Auth, Push)
